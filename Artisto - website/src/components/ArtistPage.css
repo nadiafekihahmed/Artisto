@@ -1,0 +1,109 @@
+.artist-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #faf0e6; 
+  min-height: auto;
+  height: auto; 
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+
+html, body {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto !important; 
+  height: auto; 
+  background: #272730;
+  margin: 0;
+  font-family: 'Sacramento', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root, canvas {
+  height: auto !important; 
+  min-height: 100vh;
+}
+
+
+
+.cover {
+  position: relative;
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.cover-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 5px 30%;
+  filter: brightness(80%);
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.gallery-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.artist-info {
+  margin: 10px;
+  padding: 20px;
+}
+
+.artist-name {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.artist-dates {
+  font-size: 16px;  
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.artist-bio {
+  font-size: 18px;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.image-gallery {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-preview {
+  width: 95%;   
+  max-width: 1200px; 
+  height: auto;   
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-preview:hover {
+  transform: scale(1.05);
+}
