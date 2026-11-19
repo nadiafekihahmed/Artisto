@@ -28,11 +28,11 @@ The project is organized around a mobile application and backend components. Exp
 
 ## Collaboration & Contributions
 
-Artisto was developed collaboratively with Hadeel and other team members over the course of our academic work.
+Artisto was developed collaboratively with my team over the course of our academic work.
 
 The project involved designing and developing the application, integrating 3D technologies, and implementing backend functionality.
 
-This repository is maintained under my GitHub profile to showcase my participation in the project. The original collaborative project is available at [had33l/Artisto](https://github.com/had33l/Artisto).
+
 
 ## Future Improvements
 
